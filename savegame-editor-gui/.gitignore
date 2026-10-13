@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# savegame-editor-gui runtime
+*.save.bak
+*.save.tmp
+profiles/user_local.json
+logs/
+crashdumps/
+save_profiles/private/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+
+# OS
+desktop.ini
